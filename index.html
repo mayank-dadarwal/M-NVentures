@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M&N Ventures</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="./images/Logo.webp" alt="M&N Ventures Logo">
+            <h1>M&N Ventures</h1>
+        </div>
+        <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+<nav>
+            <a href="#home" >Home</a>
+            <a href="#about">About Us</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="hero" id="home">
+        <img src="./images/brass-background.webp" alt="M&N Ventures Hero Image">
+        <div class="hero-text">
+            
+            <p>Discover the timeless beauty of brass craftsmanship</p>
+            <a href="#products" class="cta-button">Explore Products</a>
+        </div>
+    </div>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            Welcome to our world of exquisite <span class="highlight" style="font-family: 'Playfair Display', serif;">brass craftsmanship</span>! We are proud to be a leading exporter of high-quality brass products,
+            including:Jewelry,Gems and Stones,Lamps,Cutlery and Kitchenware,Vases and Pots,Interiors and Decors,Urns,Bathroom Accessories,Valves,Coated Wires,
+            Church Interiors Other unique items like Saddlery and Brewery Dispensers
+        </p>
+        <p>
+            <span class="highlight">India's brass industry</span> has a rich heritage, blending centuries-old traditions with modern innovation. Did you know that over <span class="highlight">70% of the world’s brass products</span> are sourced from India? We take pride in bringing this legacy to a global audience.
+        </p>
+        <h2>What Sets Us Apart?</h2>
+        <div class="content-block">
+            <p><strong>Exceptional Craftsmanship:</strong> Our products combine timeless designs with a contemporary touch, made with precision and artistry.</p>
+            <p><strong>Ethical Sourcing:</strong> We collaborate with small-scale manufacturers across India, ensuring fair practices and empowering local artisans.</p>
+            <p><strong>Data-Driven Strategy:</strong> Leveraging insights and market trends, we deliver products that match global demand while maintaining unmatched quality.</p>
+            <p><strong>Global Connections:</strong> Bridging the gap between India’s skilled brass manufacturers and customers worldwide, we bring authentic Indian artistry to homes and businesses everywhere.</p>
+        </div>
+        <p>
+            Whether you're looking for elegant home decor, practical kitchenware, or intricate church interiors, our products reflect the beauty and versatility of Indian brass.
+        </p>
+        <p style="text-align: center; font-weight: bold;">
+            <span class="highlight">Come join us on this journey to celebrate craftsmanship, connect communities, and grow together!</span>
+        </p>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="products">
+            <div class="product fade-in">
+                <img src="./images/jewelry.webp" alt="Jewelry">
+                <h3>Jewelry</h3>
+                <p>More than jewelry, we offer a legacy of artistry and elegance, reflecting your style.</p>
+            
+</div>
+            <div class="product fade-in">
+                <img src="./images/cutlery.webp" alt="Cutlery">
+                <h3>Cutlery Kitchen</h3>
+                <p>Fine dining begins with our elegant brass cutlery, bringing sophistication to your dining experience.</p>
+            </div>
+            <div class="product fade-in">
+                <img src="./images/lamp.webp" alt="Lamp">
+                <h3>Lamps</h3>
+                <p>A touch of artistry, one elegant lamp at a time. Crafting light that tells a story.</p>
+            </div>
+            <div class="product fade-in">
+                <img src="./images/vases.webp" alt="Vases">
+                <h3>Vases, Pots & Urns</h3>
+                <p>Enhance any space with artistic brass vases and urns, elevating both homes and gardens.</p>
+            </div>
+            <div class="product fade-in">
+                <img src="./images/bathroom.webp" alt="Bathroom Accessories">
+                <h3>Bathroom Accessories</h3>
+                <p>Luxury meets practicality with our brass bathroom accessories.</p>
+            </div>
+            <div class="product fade-in">
+                <img src="./images/decor.webp" alt="Interior Decor">
+                <h3>Interiors & Decors</h3>
+                <p>Transform your space with our brass interior decor—where design meets desire.</p>
+            </div>
+            <div class="product fade-in">
+                <img src="./images/gems-stones.webp" alt="Gems and Stones">
+                <h3>Brass Gems and Stones</h3>
+                <p>Discover intricate brass designs with the timeless beauty of gems and stones.</p>
+            </div>
+            <div class="product fade-in">
+                <img src="./images/church-accessories.webp" alt="Church Accessories">
+                <h3>Brass Church Accessories</h3>
+                <p>Elegant and traditional brass accessories designed for sacred spaces.</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm" action="https://docs.google.com/forms/d/e/1FAIpQLSdEmRdbvVw5CZa8GRnwSm_n2ls_iJdgtC-Ow5z4js6NU3cN-Q/formResponse" method="POST" target="hiddenFrame">
+            <input type="hidden" name="entry.1455189639" id="nameField">
+            <input type="hidden" name="entry.1559070598" id="emailField">
+            <input type="hidden" name="entry.2115511672" id="phoneField">
+            <input type="hidden" name="entry.1301030173" id="messageField">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <iframe name="hiddenFrame" style="display:none;"></iframe>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 M&N Ventures. All rights reserved.</p>
+        <p>Email us at: <a href="mailto:mnventures01@gmail.com">mnventures01@gmail.com</a></p>
+        <div class="social-icons">
+            <a href="#"><img src="./images/facebook-icon.webp" alt="Facebook"></a>
+            <a href="#"><img src="./images/instagram-icon.webp" alt="Instagram"></a>
+            <a href="#"><img src="./images/linkedin-icon.webp" alt="Twitter"></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
